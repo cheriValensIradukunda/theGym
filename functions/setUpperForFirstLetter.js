@@ -9,4 +9,3 @@ function upperingLetter(string){
 
 upperingLetter("hello world")
 
-console.log("hello world".capitalize())
