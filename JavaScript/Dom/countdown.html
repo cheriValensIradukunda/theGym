@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button>Add 5 seconds</button>
+    <button>Add 10 seconds</button>
+    <button>Add 15 seconds</button>
+    <button>start</button>
+    <script>
+        let mins=0
+        let displayer = document.querySelector("h1")
+        let buttons = document.querySelectorAll("button")
+        let minutes = 0;
+        let seconds = 0;
+        buttons[0].addEventListener('click', ()=>{
+            mins +=5;
+            seconds +=5
+            if(seconds >= 60){
+                let calcSeconds = seconds - 60;
+                minutes+= 1
+                seconds = calcSeconds
+            }
+            displayer.textContent = minutes + ":" + seconds
+        })
+        buttons[1].addEventListener('click', ()=>{
+            mins +=10;
+            seconds +=10
+            if(seconds >= 60){
+                let calcSeconds = seconds - 60;
+                console.log(calcSeconds)
+                minutes+= 1
+                seconds = calcSeconds
+            }
+            displayer.textContent = minutes + ":" + seconds
+        })
+        buttons[2].addEventListener('click', ()=>{
+            mins +=15;
+            seconds +=15
+            if(seconds >= 60){
+                let calcSeconds = seconds - 60;
+                minutes+= 1
+                seconds = calcSeconds
+            }
+
+            displayer.textContent = minutes + ":" + seconds
+        })
+        buttons[3].addEventListener('click', ()=>{
+            
+            
+            let interval = null
+            interval = setInterval(()=>{
+                displayer.textContent = minutes + ":" + seconds
+                if(mins == 0){
+                    clearInterval(interval)
+                }
+                if(seconds == 0){
+                    if(minutes-1>=0){
+                        seconds +=60;
+                        minutes -=1
+                    }
+                }
+                mins--;
+                seconds--;
+            }, 1000)
+        })
+    </script>
+</body>
+</html>
