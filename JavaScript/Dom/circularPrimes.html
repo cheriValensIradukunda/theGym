@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3></h3>
+    <script>
+        let displayer = document.querySelector("h3")
+        let number = 123 //123 132 213 231 312 321
+        let StringNumber = number+""
+        let stringNumberArray = StringNumber.split("")
+
+        for(let i = 0; i<stringNumberArray.length;i++){
+
+            let number = stringNumberArray[i];
+
+            for(let j = 0; j<stringNumberArray.length; j++){
+                if(j == i){
+                    continue
+                }
+                number = number + "" + stringNumberArray[j];
+
+            }
+
+            displayer.textContent =displayer.textContent + " " + number
+            
+        }
+
+    </script>
+</body>
+</html>

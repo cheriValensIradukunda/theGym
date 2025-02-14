@@ -19,13 +19,37 @@
             event.preventDefault()
             let action = document.forms['form']['action'].value
             let newList = document.createElement("li")
+            let newDiv = document.createElement("div")
+            let newButton = document.createElement("button")
+            let newInput = document.createElement("input")
+            
             newList.textContent = action
             newList.setAttribute("onclick", 'handleDelete(this)')
-            todoList.appendChild(newList)
+            newButton.textContent = "delete"
+            newInput.setAttribute("type","checkbox")
+            newInput.addEventListener("click",()=>{
 
-        }
-        function handleDelete(item){
-           todoList.removeChild(item)
+                if(newInput.checked){
+                    newList.style.textDecoration = "line-through"
+                    // newDiv.appendChild(deleteContent)
+                }
+                else{
+                    newList.style.textDecoration = "none"
+                }
+                
+            })
+            newDiv.appendChild(newList)
+            newDiv.appendChild(newButton)
+            newDiv.appendChild(newInput)
+            todoList.appendChild(newDiv)
+
+
+
+            newButton.addEventListener("click",()=>{
+                
+                todoList.removeChild(newDiv)  
+            })
+
         }
     </script>
 </body>

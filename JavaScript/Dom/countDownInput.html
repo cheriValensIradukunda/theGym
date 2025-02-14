@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form" onsubmit="handleSubmit(event)">
+        <input type="time" name="time">
+        <button>start countDown</button>
+    </form>
+    <h2></h2>
+    <script>
+        function handleSubmit(event){
+            event.preventDefault()
+            
+            let displayer = document.querySelector("h2")
+            var input = document.forms['form']['time'].value;
+            var inputsArray = input.split(":")
+            var hours = inputsArray[0]
+            var mins = inputsArray[1]
+            var seconds = mins*60 + (inputsArray[0]/60)/60;
+            var sec = 0
+
+            let interval = null;
+
+            interval = setInterval(()=> {
+                if(seconds == 0){
+                    clearInterval(interval)
+                }
+                if(sec ==0){
+                    if(mins -1 >=0){
+                        sec +=60
+                        mins--;
+                    }else{
+                        if(hours -1>=0){
+                            mins+=59
+                            sec+=60
+                            hours-=1
+                            
+                        }
+                    }
+                }
+                displayer.textContent = `${hours}:${mins}:${sec}`
+                sec--;
+                seconds--;
+            },1000)
+
+
+        }
+    </script>
+</body>
+</html>
