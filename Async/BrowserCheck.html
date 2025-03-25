@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function functionToExchange(callback){
+        //     callback(true,"this is message")
+        // }
+        // function changeFunction(){
+        //     return new Promise((resolve,reject)=>{
+        //         functionToExchange((error,message)=>{
+        //             error?resolve(message):reject(new Error(message+" error"))
+        //         })
+        //     })
+        // }
+        // changeFunction().then(res=>console.log(res)).catch(res=>console.log(res.message))
+        // console.log(functionToExchange(()=>{return "none"}) instanceof Promise)
+
+        
+function fetchData(url){
+    return new Promise((resolve,reject)=>{
+        fetch(url).then(res=>resolve(res)).catch(err=>reject("error"))
+    })
+}
+fetchData("https://jsonplaceholder.typicode.com/todos/1").then(res=>res.json())
+.then(res=>console.log(res)).catch(res=>console.log(res))
+    </script>
+</body>
+</html>

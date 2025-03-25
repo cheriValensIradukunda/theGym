@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="600" viewBox="100 100 600 600" xml:space="preserve">
+<defs>
+	<symbol id="knot1">
+		<path fill="none" stroke="rgba(200, 200, 200, 0.15)" stroke-width="0.5" stroke-miterlimit="10" d="M422.92,397.06c-3.43-3.96-8.47-6.31-13.72-6.34
+			c-0.07-6.44-3.62-12.51-9.2-15.72c-5.59,3.21-9.13,9.28-9.2,15.72c-6.49,0.04-12.6,3.64-15.8,9.28c3.2,5.65,9.31,9.24,15.8,9.28
+			c0.07,6.44,3.62,12.51,9.2,15.72c5.59-3.21,9.13-9.28,9.2-15.72c6.49-0.04,12.6-3.64,15.8-9.28
+			C424.41,398.95,423.71,397.97,422.92,397.06z M395.16,385.03c1.03-2.45,2.72-4.61,4.84-6.21c3.78,2.86,6.04,7.42,6.02,12.16
+			c-2.12,0.36-4.16,1.1-6.02,2.17c-1.86-1.07-3.91-1.81-6.02-2.17C393.97,388.94,394.37,386.91,395.16,385.03z M404.84,396.83
+			c-0.03,0.08-0.06,0.15-0.1,0.22c-0.56-0.65-1.17-1.26-1.82-1.83c0.88-0.39,1.79-0.71,2.73-0.92
+			C405.46,395.16,405.18,396.01,404.84,396.83z M404.84,403.17c0.35,0.82,0.62,1.67,0.81,2.53c-0.94-0.22-1.85-0.53-2.73-0.92
+			c0.65-0.57,1.26-1.18,1.82-1.83C404.77,403.02,404.81,403.09,404.84,403.17z M395.16,396.83c-0.35-0.82-0.62-1.67-0.81-2.53
+			c0.94,0.22,1.85,0.53,2.73,0.92c-0.65,0.57-1.26,1.18-1.82,1.83C395.23,396.98,395.19,396.91,395.16,396.83z M395.16,403.17
+			c0.03-0.08,0.06-0.15,0.1-0.22c0.56,0.65,1.17,1.26,1.82,1.83c-0.88,0.39-1.79,0.71-2.73,0.92
+			C394.54,404.84,394.82,403.99,395.16,403.17z M398.4,401.65c-0.52-0.52-0.99-1.07-1.43-1.65c0.86-1.15,1.88-2.18,3.02-3.05
+			c1.14,0.87,2.17,1.9,3.02,3.05c-0.86,1.15-1.88,2.18-3.02,3.05C399.44,402.62,398.91,402.16,398.4,401.65z M380.22,401.65
+			c-0.52-0.52-0.99-1.07-1.43-1.65c2.86-3.84,7.45-6.13,12.24-6.09c0.35,2.14,1.08,4.21,2.15,6.09c-1.07,1.88-1.8,3.96-2.15,6.09
+			C387,406.12,383.07,404.51,380.22,401.65z M404.84,414.97c-1.03,2.45-2.72,4.61-4.84,6.21c-3.78-2.86-6.04-7.42-6.02-12.16
+			c2.12-0.36,4.16-1.1,6.02-2.17c1.86,1.07,3.91,1.81,6.02,2.17C406.03,411.06,405.63,413.09,404.84,414.97z M419.78,401.65
+			c-2.85,2.86-6.78,4.47-10.81,4.44c-0.35-2.14-1.08-4.21-2.15-6.09c1.07-1.88,1.8-3.96,2.15-6.09c4.79-0.04,9.38,2.26,12.24,6.09
+			C420.77,400.58,420.3,401.13,419.78,401.65z"/>
+		
+	</symbol>
+</defs>
+<g class="row1">
+	<use xlink:href="#knot1" x="-64" y="-256"/>
+	<use xlink:href="#knot1" x="0" y="-256"/>
+</g>
+<g class="row1-offset">
+	<use xlink:href="#knot1" x="-32" y="-224"/>
+	<use xlink:href="#knot1" x="32" y="-224"/>
+</g>
+<g class="row2">
+	<use xlink:href="#knot1" x="-64" y="-192"/>
+	<use xlink:href="#knot1" x="0" y="-192"/>
+</g>
+<g class="row2-offset">
+	<use xlink:href="#knot1" x="-32" y="-160"/>
+	<use xlink:href="#knot1" x="32" y="-160"/>
+</g>
+<g class="row3">
+	<use xlink:href="#knot1" x="-64" y="-128"/>
+	<use xlink:href="#knot1" x="0" y="-128"/>
+	<use xlink:href="#knot1" x="128" y="-128"/>
+</g>
+<g class="row3-offset">
+	<use xlink:href="#knot1" x="-160" y="-96"/>
+	<use xlink:href="#knot1" x="-96" y="-96"/>
+	<use xlink:href="#knot1" x="-32" y="-96"/>
+	<use xlink:href="#knot1" x="32" y="-96"/>
+	<use xlink:href="#knot1" x="96" y="-96"/>
+</g>
+<g class="row4">
+	<use xlink:href="#knot1" x="-256" y="-64"/>
+	<use xlink:href="#knot1" x="-192" y="-64"/>
+	<use xlink:href="#knot1" x="-128" y="-64"/>
+	<use xlink:href="#knot1" x="-64" y="-64"/>
+	<use xlink:href="#knot1" x="0" y="-64"/>
+	<use xlink:href="#knot1" x="64" y="-64"/>
+	<use xlink:href="#knot1" x="128" y="-64"/>
+	
+</g>
+<g class="row4-offset">
+	<use xlink:href="#knot1" x="-224" y="-32"/>
+	<use xlink:href="#knot1" x="-160" y="-32"/>
+	<use xlink:href="#knot1" x="-96" y="-32"/>
+	<use xlink:href="#knot1" x="-32" y="-32"/>
+	<use xlink:href="#knot1" x="32" y="-32"/>
+	<use xlink:href="#knot1" x="96" y="-32"/>
+	<use xlink:href="#knot1" x="160" y="-32"/>
+	<use xlink:href="#knot1" x="224" y="-32"/>
+</g>
+<g class="row5">
+	<use xlink:href="#knot1" x="-256" y="0"/>
+	<use xlink:href="#knot1" x="-192" y="0"/>
+	<use xlink:href="#knot1" x="-128" y="0"/>
+	<use xlink:href="#knot1" x="-64" y="0"/>
+	<use xlink:href="#knot1" x="0" y="0"/>
+	<use xlink:href="#knot1" x="64" y="0"/>
+	<use xlink:href="#knot1" x="128" y="0"/>
+	<use xlink:href="#knot1" x="192" y="0"/>
+</g>
+<g class="row5-offset">
+	<use xlink:href="#knot1" x="-224" y="32"/>
+	<use xlink:href="#knot1" x="-160" y="32"/>
+	<use xlink:href="#knot1" x="-96" y="32"/>
+	<use xlink:href="#knot1" x="-32" y="32"/>
+	<use xlink:href="#knot1" x="32" y="32"/>
+	<use xlink:href="#knot1" x="96" y="32"/>
+	<use xlink:href="#knot1" x="160" y="32"/>
+	<use xlink:href="#knot1" x="224" y="32"/>
+</g>
+<g class="row6">
+	<use xlink:href="#knot1" x="-256" y="64"/>
+	<use xlink:href="#knot1" x="-192" y="64"/>
+	<use xlink:href="#knot1" x="-128" y="64"/>
+	<use xlink:href="#knot1" x="-64" y="64"/>
+	<use xlink:href="#knot1" x="0" y="64"/>
+	<use xlink:href="#knot1" x="64" y="64"/>
+	<use xlink:href="#knot1" x="128" y="64"/>
+	<use xlink:href="#knot1" x="192" y="64"/>
+</g>
+<g class="row6-offset">
+	<use xlink:href="#knot1" x="-96" y="96"/>
+	<use xlink:href="#knot1" x="-32" y="96"/>
+	<use xlink:href="#knot1" x="32" y="96"/>
+	<use xlink:href="#knot1" x="96" y="96"/>
+	<use xlink:href="#knot1" x="160" y="96"/>
+</g>
+<g class="row7">
+	<use xlink:href="#knot1" x="-128" y="128"/>
+	<use xlink:href="#knot1" x="-64" y="128"/>
+	<use xlink:href="#knot1" x="0" y="128"/>
+	<use xlink:href="#knot1" x="64" y="128"/>
+	<use xlink:href="#knot1" x="128" y="128"/>
+</g>
+<g class="row7-offset">
+	<use xlink:href="#knot1" x="-96" y="160"/>
+	<use xlink:href="#knot1" x="-32" y="160"/>
+	<use xlink:href="#knot1" x="32" y="160"/>
+	<use xlink:href="#knot1" x="96" y="160"/>
+	<use xlink:href="#knot1" x="160" y="160"/>
+</g>
+<g class="row8">
+	<use xlink:href="#knot1" x="-64" y="192"/>
+	<use xlink:href="#knot1" x="0" y="192"/>
+	<use xlink:href="#knot1" x="64" y="192"/>
+	<use xlink:href="#knot1" x="128" y="192"/>
+</g>
+<g class="row8-offset">
+	<use xlink:href="#knot1" x="-96" y="224"/>
+	<use xlink:href="#knot1" x="-32" y="224"/>
+	<use xlink:href="#knot1" x="32" y="224"/>
+	<use xlink:href="#knot1" x="160" y="224"/>
+</g>
+</svg>

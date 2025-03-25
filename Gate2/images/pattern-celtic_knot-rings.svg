@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="600" height="600" viewBox="100 100 600 600" xml:space="preserve">
+<defs>
+	<symbol id="rings">
+		<path fill="none" stroke="rgba(200, 200, 200, 0.15)" stroke-width="0.5" stroke-miterlimit="10" style="transform: scale(0.9); transform-origin: 50% 50%;" d="M414.2,385.8c-1.73-6.31-7.63-10.8-14.17-10.8
+			c-6.56,0-12.47,4.51-14.19,10.84c-6.33,1.72-10.84,7.63-10.84,14.19c0,6.54,4.49,12.44,10.8,14.17c1.73,6.31,7.63,10.8,14.17,10.8
+			c6.56,0,12.47-4.51,14.19-10.84c6.33-1.72,10.84-7.63,10.84-14.19C425,393.43,420.51,387.53,414.2,385.8z M388.77,385.13
+			c1.84-4.54,6.36-7.57,11.26-7.57c4.89-0.01,9.42,3.04,11.26,7.57c0.02,0.06,0.05,0.12,0.07,0.18c-4.2-0.3-8.39,1.25-11.38,4.21
+			c-2.98-2.91-7.13-4.44-11.29-4.15C388.71,385.29,388.74,385.21,388.77,385.13z M408.56,401.71c2.68,2.68,3.96,6.53,3.44,10.28
+			c-3.77,0.53-7.63-0.77-10.31-3.46c1-1.4,1.74-2.99,2.2-4.65c1.66-0.45,3.24-1.2,4.65-2.2C408.54,401.7,408.55,401.71,408.56,401.71z
+			 M398.29,408.62c-2.69,2.69-6.57,3.97-10.33,3.43c-0.55-3.8,0.77-7.71,3.5-10.41c1.41,1.01,3,1.77,4.67,2.23
+			c0.46,1.67,1.22,3.26,2.23,4.67C398.33,408.57,398.31,408.59,398.29,408.62z M391.44,398.29c-2.68-2.68-3.96-6.53-3.44-10.28
+			c3.77-0.53,7.63,0.77,10.31,3.46c-1,1.4-1.74,2.99-2.2,4.65c-1.66,0.45-3.24,1.2-4.65,2.2C391.46,398.3,391.45,398.29,391.44,398.29
+			z M401.03,395.64c-0.69-0.05-1.38-0.05-2.07,0c0.28-0.72,0.62-1.42,1.03-2.08c0.38,0.6,0.7,1.23,0.97,1.9
+			C400.98,395.52,401,395.58,401.03,395.64z M404.54,399.05c0.66,0.27,1.3,0.59,1.9,0.97c-0.66,0.41-1.35,0.75-2.08,1.03
+			c0.05-0.69,0.05-1.38,0-2.07C404.42,399,404.48,399.02,404.54,399.05z M401.84,400.03c0,0.57-0.04,1.14-0.12,1.7
+			c-1.14,0.16-2.3,0.16-3.44-0.01c-0.16-1.14-0.17-2.3-0.01-3.44c1.14-0.16,2.3-0.16,3.44,0.01
+			C401.8,398.86,401.84,399.44,401.84,400.03z M398.97,404.36c0.69,0.05,1.38,0.05,2.07,0c-0.28,0.72-0.62,1.42-1.03,2.08
+			C399.6,405.78,399.25,405.08,398.97,404.36z M395.46,400.95c-0.66-0.27-1.3-0.59-1.9-0.97c0.66-0.41,1.35-0.75,2.08-1.03
+			c-0.05,0.69-0.05,1.38,0,2.07C395.58,401,395.52,400.98,395.46,400.95z M408.62,398.29c-0.02,0.02-0.05,0.05-0.07,0.07
+			c-1.41-1.01-3-1.77-4.67-2.23c-0.46-1.67-1.22-3.26-2.23-4.67c2.69-2.74,6.6-4.05,10.41-3.5
+			C412.59,391.72,411.31,395.6,408.62,398.29z M385.13,411.28c-4.6-1.86-7.64-6.48-7.57-11.44c0.07-4.92,3.21-9.41,7.81-11.17
+			c-0.28,4.16,1.24,8.31,4.15,11.29c-2.96,2.99-4.5,7.19-4.21,11.38C385.25,411.33,385.19,411.31,385.13,411.28z M411.23,414.87
+			c-1.86,4.6-6.48,7.64-11.44,7.57c-4.9-0.07-9.38-3.19-11.15-7.75c4.2,0.3,8.39-1.25,11.38-4.21c2.98,2.91,7.13,4.44,11.29,4.15
+			C411.29,414.71,411.26,414.79,411.23,414.87z M421.56,395.4c2.52,6.22-0.65,13.53-6.92,15.92c0.28-4.16-1.24-8.31-4.15-11.29
+			c2.96-2.99,4.5-7.19,4.21-11.38c0.06,0.02,0.12,0.05,0.18,0.07C417.89,389.94,420.33,392.39,421.56,395.4z"/>
+	</symbol>
+</defs>
+<g class="row1">
+	<use xlink:href="#rings" x="-64" y="-256"/>
+	<use xlink:href="#rings" x="0" y="-256"/>
+</g>
+<g class="row1-offset">
+	<use xlink:href="#rings" x="-32" y="-224"/>
+	<use xlink:href="#rings" x="32" y="-224"/>
+</g>
+<g class="row2">
+	<use xlink:href="#rings" x="-64" y="-192"/>
+	<use xlink:href="#rings" x="0" y="-192"/>
+</g>
+<g class="row2-offset">
+	<use xlink:href="#rings" x="-32" y="-160"/>
+	<use xlink:href="#rings" x="32" y="-160"/>
+</g>
+<g class="row3">
+	<use xlink:href="#rings" x="-64" y="-128"/>
+	<use xlink:href="#rings" x="0" y="-128"/>
+	<use xlink:href="#rings" x="128" y="-128"/>
+</g>
+<g class="row3-offset">
+	<use xlink:href="#rings" x="-160" y="-96"/>
+	<use xlink:href="#rings" x="-96" y="-96"/>
+	<use xlink:href="#rings" x="-32" y="-96"/>
+	<use xlink:href="#rings" x="32" y="-96"/>
+	<use xlink:href="#rings" x="96" y="-96"/>
+</g>
+<g class="row4">
+	<use xlink:href="#rings" x="-256" y="-64"/>
+	<use xlink:href="#rings" x="-192" y="-64"/>
+	<use xlink:href="#rings" x="-128" y="-64"/>
+	<use xlink:href="#rings" x="-64" y="-64"/>
+	<use xlink:href="#rings" x="0" y="-64"/>
+	<use xlink:href="#rings" x="64" y="-64"/>
+	<use xlink:href="#rings" x="128" y="-64"/>
+
+</g>
+<g class="row4-offset">
+	<use xlink:href="#rings" x="-224" y="-32"/>
+	<use xlink:href="#rings" x="-160" y="-32"/>
+	<use xlink:href="#rings" x="-96" y="-32"/>
+	<use xlink:href="#rings" x="-32" y="-32"/>
+	<use xlink:href="#rings" x="32" y="-32"/>
+	<use xlink:href="#rings" x="96" y="-32"/>
+	<use xlink:href="#rings" x="160" y="-32"/>
+	<use xlink:href="#rings" x="224" y="-32"/>
+</g>
+<g class="row5">
+	<use xlink:href="#rings" x="-256" y="0"/>
+	<use xlink:href="#rings" x="-192" y="0"/>
+	<use xlink:href="#rings" x="-128" y="0"/>
+	<use xlink:href="#rings" x="-64" y="0"/>
+	<use xlink:href="#rings" x="0" y="0"/>
+	<use xlink:href="#rings" x="64" y="0"/>
+	<use xlink:href="#rings" x="128" y="0"/>
+	<use xlink:href="#rings" x="192" y="0"/>
+</g>
+<g class="row5-offset">
+	<use xlink:href="#rings" x="-224" y="32"/>
+	<use xlink:href="#rings" x="-160" y="32"/>
+	<use xlink:href="#rings" x="-96" y="32"/>
+	<use xlink:href="#rings" x="-32" y="32"/>
+	<use xlink:href="#rings" x="32" y="32"/>
+	<use xlink:href="#rings" x="96" y="32"/>
+	<use xlink:href="#rings" x="160" y="32"/>
+	<use xlink:href="#rings" x="224" y="32"/>
+</g>
+<g class="row6">
+	<use xlink:href="#rings" x="-256" y="64"/>
+	<use xlink:href="#rings" x="-192" y="64"/>
+	<use xlink:href="#rings" x="-128" y="64"/>
+	<use xlink:href="#rings" x="-64" y="64"/>
+	<use xlink:href="#rings" x="0" y="64"/>
+	<use xlink:href="#rings" x="64" y="64"/>
+	<use xlink:href="#rings" x="128" y="64"/>
+	<use xlink:href="#rings" x="192" y="64"/>
+</g>
+<g class="row6-offset">
+	<use xlink:href="#rings" x="-96" y="96"/>
+	<use xlink:href="#rings" x="-32" y="96"/>
+	<use xlink:href="#rings" x="32" y="96"/>
+	<use xlink:href="#rings" x="96" y="96"/>
+	<use xlink:href="#rings" x="160" y="96"/>
+</g>
+<g class="row7">
+	<use xlink:href="#rings" x="-128" y="128"/>
+	<use xlink:href="#rings" x="-64" y="128"/>
+	<use xlink:href="#rings" x="0" y="128"/>
+	<use xlink:href="#rings" x="64" y="128"/>
+	<use xlink:href="#rings" x="128" y="128"/>
+</g>
+<g class="row7-offset">
+	<use xlink:href="#rings" x="-96" y="160"/>
+	<use xlink:href="#rings" x="-32" y="160"/>
+	<use xlink:href="#rings" x="32" y="160"/>
+	<use xlink:href="#rings" x="96" y="160"/>
+	<use xlink:href="#rings" x="160" y="160"/>
+</g>
+<g class="row8">
+	<use xlink:href="#rings" x="-64" y="192"/>
+	<use xlink:href="#rings" x="0" y="192"/>
+	<use xlink:href="#rings" x="64" y="192"/>
+	<use xlink:href="#rings" x="128" y="192"/>
+</g>
+<g class="row8-offset">
+	<use xlink:href="#rings" x="-96" y="224"/>
+	<use xlink:href="#rings" x="-32" y="224"/>
+	<use xlink:href="#rings" x="32" y="224"/>
+	<use xlink:href="#rings" x="160" y="224"/>
+</g>
+</svg>
